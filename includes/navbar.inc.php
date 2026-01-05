@@ -12,7 +12,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Linkdwqueuilwqelisaluidsaldyusalfyuid</a>
+                    <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -20,11 +20,11 @@
                         Auth
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/g19bcsy3c/pages/login.php">Login</a></li>
+                        <li><a class="dropdown-item" href="/g19bcsy3c/?page=login">Login</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="/g19bcsy3c/pages/register.php">Register</a></li>
+                        <li><a class="dropdown-item" href="/g19bcsy3c/?page=register">Register</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
