@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -20,11 +19,18 @@
                         Auth
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/g19bcsy3c/?page=login">Login</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="/g19bcsy3c/?page=register">Register</a></li>
+                        <?php if (empty($user)) { ?>
+                            <li><a class="dropdown-item"
+                                    href="/g19bcsy3c/?page=login">Login</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="/g19bcsy3c/?page=register">Register</a></li>
+                        <?php } else { ?>
+                            <li><a class="dropdown-item"
+                                    href="/g19bcsy3c/?page=logout">Logout</a></li>
+                        <?php } ?>
                     </ul>
                 </li>
                 <li class="nav-item">
