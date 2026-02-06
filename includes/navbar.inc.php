@@ -21,20 +21,20 @@
                     <ul class="dropdown-menu">
                         <?php if (empty($user)) { ?>
                             <li><a class="dropdown-item"
-                                    href="/g19bcsy3c/?page=login">Login</a></li>
+                                    href="<?php echo $baseUrl ?>?page=login">Login</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item"
-                                    href="/g19bcsy3c/?page=register">Register</a></li>
+                                    href="<?php echo $baseUrl ?>?page=register">Register</a></li>
                         <?php } else { ?>
                             <li><a class="dropdown-item"
-                                    href="/g19bcsy3c/?page=profile">Profile</a></li>
+                                    href="<?php echo $baseUrl ?>?page=profile">Profile</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item"
-                                    href="/g19bcsy3c/?page=logout">Logout</a></li>
+                                    href="<?php echo $baseUrl ?>?page=logout">Logout</a></li>
                         <?php } ?>
                     </ul>
                 </li>
